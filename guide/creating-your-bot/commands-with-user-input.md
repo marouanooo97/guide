@@ -350,7 +350,7 @@ The other caveat with this is that the `!prune {number}` message you sent will a
 - else if (amount < 2 || amount > 100) {
 -	return message.reply('you need to input a number between 2 and 100.');
 - }
-+ else if (amount <= 1 || amount > 100) {
++ else if (amount < 1 || amount > 100) {
 +	return message.reply('you need to input a number between 1 and 99.');
 + }
 ```
